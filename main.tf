@@ -12,11 +12,12 @@ resource "aws_security_group" "main" {
   }
 
 tags = merge(
-  var.common_tags,
+  var.sg_tags,
+  local.common_tags,
   {
     Name = "${local.common_name_suffix}-${var.sg_name}"
   }
 )
-  
+
   
 }
