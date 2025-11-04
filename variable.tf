@@ -1,4 +1,4 @@
-variable "sg_names" {
+variable "sg_name" {
     type = string
 }
 
