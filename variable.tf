@@ -1,4 +1,4 @@
-variable "sg_name" {
+variable "sg_names" {
     type = string
 }
 
@@ -6,9 +6,6 @@ variable "environment" {
     type = string
 }
 
-variable "sg_name" {
-    type = string
-}
 
 variable "description" {
     type = string
